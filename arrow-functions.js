@@ -4,14 +4,20 @@
  */
 
 // Vanilla JavaScript Function
-function addTwoNumbers(a,b) {
+/**function addTwoNumbers(a,b) {
+*    return a + b;
+*}
+
+*let sum = addTwoNumbers(6,2);
+*console.log(sum);
+//Arrow Javascript function */
+
+const addTwoNumbers = (a,b) => {
     return a + b;
 }
 
 let sum = addTwoNumbers(6,2);
 console.log(sum);
-
-// Arrow Function With Parameters
 
 // Single Line Arrow Function With Parameters
 
